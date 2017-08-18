@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		553C69F11F46EDF8001EA644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C69F01F46EDF8001EA644 /* AppDelegate.swift */; };
+		553C69F31F46EDF8001EA644 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C69F21F46EDF8001EA644 /* FirstViewController.swift */; };
+		553C69F51F46EDF8001EA644 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C69F41F46EDF8001EA644 /* SecondViewController.swift */; };
+		553C69F81F46EDF8001EA644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553C69F61F46EDF8001EA644 /* Main.storyboard */; };
+		553C69FA1F46EDF8001EA644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553C69F91F46EDF8001EA644 /* Assets.xcassets */; };
+		553C69FD1F46EDF8001EA644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553C69FB1F46EDF8001EA644 /* LaunchScreen.storyboard */; };
+		553C6A081F46EDF8001EA644 /* Brifge_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C6A071F46EDF8001EA644 /* Brifge_ControlTests.swift */; };
+		553C6A131F46EDF8001EA644 /* Brifge_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C6A121F46EDF8001EA644 /* Brifge_ControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		553C6A041F46EDF8001EA644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553C69E51F46EDF8001EA644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553C69EC1F46EDF8001EA644;
+			remoteInfo = "Brifge Control";
+		};
+		553C6A0F1F46EDF8001EA644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 553C69E51F46EDF8001EA644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 553C69EC1F46EDF8001EA644;
+			remoteInfo = "Brifge Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		553C69ED1F46EDF8001EA644 /* Brifge Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brifge Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553C69F01F46EDF8001EA644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		553C69F21F46EDF8001EA644 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		553C69F41F46EDF8001EA644 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		553C69F71F46EDF8001EA644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		553C69F91F46EDF8001EA644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		553C69FC1F46EDF8001EA644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		553C69FE1F46EDF8001EA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553C6A031F46EDF8001EA644 /* Brifge ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brifge ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553C6A071F46EDF8001EA644 /* Brifge_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brifge_ControlTests.swift; sourceTree = "<group>"; };
+		553C6A091F46EDF8001EA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553C6A0E1F46EDF8001EA644 /* Brifge ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brifge ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		553C6A121F46EDF8001EA644 /* Brifge_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brifge_ControlUITests.swift; sourceTree = "<group>"; };
+		553C6A141F46EDF8001EA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		553C69EA1F46EDF8001EA644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C6A001F46EDF8001EA644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C6A0B1F46EDF8001EA644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553C69E41F46EDF8001EA644 = {
+			isa = PBXGroup;
+			children = (
+				553C69EF1F46EDF8001EA644 /* Brifge Control */,
+				553C6A061F46EDF8001EA644 /* Brifge ControlTests */,
+				553C6A111F46EDF8001EA644 /* Brifge ControlUITests */,
+				553C69EE1F46EDF8001EA644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		553C69EE1F46EDF8001EA644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553C69ED1F46EDF8001EA644 /* Brifge Control.app */,
+				553C6A031F46EDF8001EA644 /* Brifge ControlTests.xctest */,
+				553C6A0E1F46EDF8001EA644 /* Brifge ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		553C69EF1F46EDF8001EA644 /* Brifge Control */ = {
+			isa = PBXGroup;
+			children = (
+				553C69F01F46EDF8001EA644 /* AppDelegate.swift */,
+				553C69F21F46EDF8001EA644 /* FirstViewController.swift */,
+				553C69F41F46EDF8001EA644 /* SecondViewController.swift */,
+				553C69F61F46EDF8001EA644 /* Main.storyboard */,
+				553C69F91F46EDF8001EA644 /* Assets.xcassets */,
+				553C69FB1F46EDF8001EA644 /* LaunchScreen.storyboard */,
+				553C69FE1F46EDF8001EA644 /* Info.plist */,
+			);
+			path = "Brifge Control";
+			sourceTree = "<group>";
+		};
+		553C6A061F46EDF8001EA644 /* Brifge ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				553C6A071F46EDF8001EA644 /* Brifge_ControlTests.swift */,
+				553C6A091F46EDF8001EA644 /* Info.plist */,
+			);
+			path = "Brifge ControlTests";
+			sourceTree = "<group>";
+		};
+		553C6A111F46EDF8001EA644 /* Brifge ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				553C6A121F46EDF8001EA644 /* Brifge_ControlUITests.swift */,
+				553C6A141F46EDF8001EA644 /* Info.plist */,
+			);
+			path = "Brifge ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		553C69EC1F46EDF8001EA644 /* Brifge Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553C6A171F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge Control" */;
+			buildPhases = (
+				553C69E91F46EDF8001EA644 /* Sources */,
+				553C69EA1F46EDF8001EA644 /* Frameworks */,
+				553C69EB1F46EDF8001EA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brifge Control";
+			productName = "Brifge Control";
+			productReference = 553C69ED1F46EDF8001EA644 /* Brifge Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		553C6A021F46EDF8001EA644 /* Brifge ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553C6A1A1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlTests" */;
+			buildPhases = (
+				553C69FF1F46EDF8001EA644 /* Sources */,
+				553C6A001F46EDF8001EA644 /* Frameworks */,
+				553C6A011F46EDF8001EA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553C6A051F46EDF8001EA644 /* PBXTargetDependency */,
+			);
+			name = "Brifge ControlTests";
+			productName = "Brifge ControlTests";
+			productReference = 553C6A031F46EDF8001EA644 /* Brifge ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		553C6A0D1F46EDF8001EA644 /* Brifge ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 553C6A1D1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlUITests" */;
+			buildPhases = (
+				553C6A0A1F46EDF8001EA644 /* Sources */,
+				553C6A0B1F46EDF8001EA644 /* Frameworks */,
+				553C6A0C1F46EDF8001EA644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553C6A101F46EDF8001EA644 /* PBXTargetDependency */,
+			);
+			name = "Brifge ControlUITests";
+			productName = "Brifge ControlUITests";
+			productReference = 553C6A0E1F46EDF8001EA644 /* Brifge ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		553C69E51F46EDF8001EA644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vladimir Rybalka";
+				TargetAttributes = {
+					553C69EC1F46EDF8001EA644 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					553C6A021F46EDF8001EA644 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553C69EC1F46EDF8001EA644;
+					};
+					553C6A0D1F46EDF8001EA644 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 553C69EC1F46EDF8001EA644;
+					};
+				};
+			};
+			buildConfigurationList = 553C69E81F46EDF8001EA644 /* Build configuration list for PBXProject "Brifge Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 553C69E41F46EDF8001EA644;
+			productRefGroup = 553C69EE1F46EDF8001EA644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				553C69EC1F46EDF8001EA644 /* Brifge Control */,
+				553C6A021F46EDF8001EA644 /* Brifge ControlTests */,
+				553C6A0D1F46EDF8001EA644 /* Brifge ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		553C69EB1F46EDF8001EA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C69FD1F46EDF8001EA644 /* LaunchScreen.storyboard in Resources */,
+				553C69FA1F46EDF8001EA644 /* Assets.xcassets in Resources */,
+				553C69F81F46EDF8001EA644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C6A011F46EDF8001EA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C6A0C1F46EDF8001EA644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		553C69E91F46EDF8001EA644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C69F51F46EDF8001EA644 /* SecondViewController.swift in Sources */,
+				553C69F11F46EDF8001EA644 /* AppDelegate.swift in Sources */,
+				553C69F31F46EDF8001EA644 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C69FF1F46EDF8001EA644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C6A081F46EDF8001EA644 /* Brifge_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C6A0A1F46EDF8001EA644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C6A131F46EDF8001EA644 /* Brifge_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		553C6A051F46EDF8001EA644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553C69EC1F46EDF8001EA644 /* Brifge Control */;
+			targetProxy = 553C6A041F46EDF8001EA644 /* PBXContainerItemProxy */;
+		};
+		553C6A101F46EDF8001EA644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 553C69EC1F46EDF8001EA644 /* Brifge Control */;
+			targetProxy = 553C6A0F1F46EDF8001EA644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		553C69F61F46EDF8001EA644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553C69F71F46EDF8001EA644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		553C69FB1F46EDF8001EA644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				553C69FC1F46EDF8001EA644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		553C6A151F46EDF8001EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		553C6A161F46EDF8001EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553C6A181F46EDF8001EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brifge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		553C6A191F46EDF8001EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brifge Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		553C6A1B1F46EDF8001EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Brifge ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brifge Control.app/Brifge Control";
+			};
+			name = Debug;
+		};
+		553C6A1C1F46EDF8001EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Brifge ControlTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brifge Control.app/Brifge Control";
+			};
+			name = Release;
+		};
+		553C6A1E1F46EDF8001EA644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Brifge ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Brifge Control";
+			};
+			name = Debug;
+		};
+		553C6A1F1F46EDF8001EA644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Brifge ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.initium.Brifge-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Brifge Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		553C69E81F46EDF8001EA644 /* Build configuration list for PBXProject "Brifge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553C6A151F46EDF8001EA644 /* Debug */,
+				553C6A161F46EDF8001EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		553C6A171F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553C6A181F46EDF8001EA644 /* Debug */,
+				553C6A191F46EDF8001EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		553C6A1A1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553C6A1B1F46EDF8001EA644 /* Debug */,
+				553C6A1C1F46EDF8001EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		553C6A1D1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553C6A1E1F46EDF8001EA644 /* Debug */,
+				553C6A1F1F46EDF8001EA644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 553C69E51F46EDF8001EA644 /* Project object */;
+}
