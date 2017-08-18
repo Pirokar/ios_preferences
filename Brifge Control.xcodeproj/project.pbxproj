@@ -15,6 +15,8 @@
 		553C69FD1F46EDF8001EA644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553C69FB1F46EDF8001EA644 /* LaunchScreen.storyboard */; };
 		553C6A081F46EDF8001EA644 /* Brifge_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C6A071F46EDF8001EA644 /* Brifge_ControlTests.swift */; };
 		553C6A131F46EDF8001EA644 /* Brifge_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C6A121F46EDF8001EA644 /* Brifge_ControlUITests.swift */; };
+		553C6A211F46F13D001EA644 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 553C6A201F46F13D001EA644 /* Settings.bundle */; };
+		559B1FA81F471C48006D422B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B1FA71F471C48006D422B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		553C6A0E1F46EDF8001EA644 /* Brifge ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brifge ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		553C6A121F46EDF8001EA644 /* Brifge_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brifge_ControlUITests.swift; sourceTree = "<group>"; };
 		553C6A141F46EDF8001EA644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553C6A201F46F13D001EA644 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		559B1FA71F471C48006D422B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				553C69F91F46EDF8001EA644 /* Assets.xcassets */,
 				553C69FB1F46EDF8001EA644 /* LaunchScreen.storyboard */,
 				553C69FE1F46EDF8001EA644 /* Info.plist */,
+				553C6A201F46F13D001EA644 /* Settings.bundle */,
+				559B1FA71F471C48006D422B /* Constants.swift */,
 			);
 			path = "Brifge Control";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553C6A211F46F13D001EA644 /* Settings.bundle in Resources */,
 				553C69FD1F46EDF8001EA644 /* LaunchScreen.storyboard in Resources */,
 				553C69FA1F46EDF8001EA644 /* Assets.xcassets in Resources */,
 				553C69F81F46EDF8001EA644 /* Main.storyboard in Resources */,
@@ -265,6 +272,7 @@
 				553C69F51F46EDF8001EA644 /* SecondViewController.swift in Sources */,
 				553C69F11F46EDF8001EA644 /* AppDelegate.swift in Sources */,
 				553C69F31F46EDF8001EA644 /* FirstViewController.swift in Sources */,
+				559B1FA81F471C48006D422B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +519,7 @@
 				553C6A191F46EDF8001EA644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		553C6A1A1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				553C6A1C1F46EDF8001EA644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		553C6A1D1F46EDF8001EA644 /* Build configuration list for PBXNativeTarget "Brifge ControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				553C6A1F1F46EDF8001EA644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
